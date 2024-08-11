@@ -1,0 +1,696 @@
+
+/*General*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cadetblue;
+    text-decoration: solid;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 13rem;
+    height: 13rem;
+}
+
+.logoWp img{
+    width: 4rem;
+    height: 4rem;
+    position: sticky;
+    left: 90%;
+    bottom: 25%;
+}
+
+.logoWp{
+    position:fixed;
+    right: 3%;
+    bottom: 5%;
+}
+
+/*Header*/
+
+header{
+    background-image:url(../Img/fondo1.jpg);
+   /* width: 100%; */
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header a{
+    color:aliceblue;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+header a:hover{
+    color:aliceblue;
+    background-color: cadetblue;
+}
+
+header .navegador{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+header .navegador li{
+    padding:0 1.5rem 0.5rem 1.5rem;
+}
+
+/*Footer*/
+
+footer .footer{
+    background-color: rgb(53, 90, 91);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+footer img{
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    font-size: large;
+    margin: 0.5rem;
+}
+
+
+.mail{
+    width: 1.8rem;
+    height: 1.7rem;
+}
+
+footer .redes{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contacto{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contacto .redesContactoImg{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+/*Main*/
+
+.caveat-h1 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+h1{
+    font-size: 3rem;
+    color: rgb(53, 90, 91);
+    font-family: "Caveat", cursive;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Shantell Sans", cursive;
+    font-weight: bold;
+}
+
+h3{
+    font-family: "Shantell Sans", cursive;
+    font-weight: 300;
+    font-weight: bold;
+}
+
+
+.fotocollage{
+    width: 100%;
+    max-width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.shantell-sans{
+  font-family: "Shantell Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BNCE" 0,
+    "INFM" 0,
+    "SPAC" 0;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: justify;
+    font-family: "Shantell Sans", cursive;
+}
+
+a{
+    font-family: "Shantell Sans", cursive;
+}
+
+.sectionPrincipal{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloPrincipal{
+    padding: 1rem;
+    text-align: center;
+}
+
+.grey-qo-regular {
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.cita{
+    padding: 1rem;
+    text-shadow: 0 0 0.5rem cadetblue;
+    font-family: "Grey Qo", cursive;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*Collage pagina INICIO */
+
+.collage{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    "img1 img3 img4 img4 img7"
+    "img2 img3 img5 img6 img7";
+    width: 100%;
+    max-width: 100%;
+    padding: 2.5rem 4rem 4rem 4rem;
+    gap: 0.5rem;
+}
+
+/*Imagenes del collage*/
+
+.img1{
+    grid-area: img1;
+}
+
+.img2{
+    grid-area: img2;
+}
+
+.img3{
+    grid-area: img3;
+    height: 100%;
+   
+}
+
+.img4{
+    grid-area: img4;
+    width: 100%;
+    max-width: 37rem;
+    
+}
+
+.img5{
+    grid-area: img5;
+}
+
+.img6{
+    grid-area: img6;
+}
+
+.img7{
+    grid-area: img7;
+    height: 100%;
+    
+}
+
+/*Nosotros*/
+
+.tituloPrincipalNosotros{
+    padding:1rem;
+    margin:0 auto;
+    text-align: center;
+}
+
+.tituloSecundario{
+    padding: 0 1.5rem 1.5rem 0;
+    text-align: center;
+}
+
+.tituloSecundarioDos{
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    text-align: center;
+}
+
+.container{
+    padding: 3rem;
+    margin:0 auto;
+}
+
+
+.fotoNosotros{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*Destinos*/
+
+.lugaresContainer figure{
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.lugaresContainer{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.lugaresContainer figure a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lugaresContainer figure img{
+    border-radius: 5%;
+}
+
+.lugaresContainer a:hover{
+    transform: scale(1.1);
+}
+
+/*Contacto*/
+
+.tituloPrincipalContacto{
+    padding: 0 2rem 3rem 2rem;
+    text-align: center;
+}
+
+.mainFormulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.tituloFormulario{
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1rem 1rem 1rem;
+    text-align: center;
+}
+
+.formContainer{
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px rgb(53, 90, 91);
+    max-width: max-content;
+    width: 100%;
+    background-image: linear-gradient(rgb(176, 197, 197),rgb(223, 245, 246));
+}
+
+.formulario input{
+    background-color: transparent;
+}
+
+.formulario textarea{
+    background-color: transparent;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .itemFormulario{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.formulario .checkbox{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.formulario .botonEnviar{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario .botonEnviar .boton{
+    cursor: pointer;
+    background-color: rgb(53, 90, 91);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.formulario .botonEnviar .boton:hover{
+    transform:scale(1.2);
+}
+
+.formulario .botonEnviar .boton:focus{
+    transform:scale(1.2);
+}
+
+.formulario .itemFormulario input:focus{
+    transform: scale(1.1);
+    background-color: aliceblue;
+}
+
+.formulario .itemFormulario textarea:focus{
+    transform: scale(1.1);
+    background-color: aliceblue;
+}
+
+.formulario .checkbox:focus{
+    transform: scale(1.1);
+    background-color: aliceblue;
+}
+
+
+/*Agencias*/
+
+.listadoAgencias li{
+    padding: 1rem 0 0 0;
+    list-style-type:circle;
+    /*list-style:url(../img/FotosInicio/avion-logo.png);*/
+}
+
+
+/*Lugares varios*/
+
+.fotolugares{ /*Foto de las provincias en destinos*/
+    width: 25rem;
+    height: 25rem;
+}
+
+.fotoprincipal{ /*Foto principal de cada provincia*/
+    max-width:40rem;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.foto{ /*Foto de nosotros y de las pag de cada provincia*/
+    max-width: 40rem;
+    width: 100%;
+    height: 24rem;
+    padding: 1rem;
+}
+
+iframe{
+    width: 40rem;
+    height: 24rem;
+    padding: 1rem;
+}
+
+.introLugares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.textoIntro{
+    object-fit:fill;
+    text-align: justify;
+    flex: 1;
+    padding: 2rem;
+}
+
+.listadoLugaresProvincias{
+    padding: 0;
+}
+
+.cadaLugarImg{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+}
+
+.tituloSecundarioLugares{
+    font-family: "Grey Qo", cursive;
+    font-size: 3rem;
+}
+
+.containerLugares{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 2rem 4rem;
+    border: 1px solid rgb(53, 90, 91);
+    box-shadow: 0 4px 8px rgb(53, 90, 91);
+}
+
+.tituloPrincipalLugares{
+    padding: 2rem 2rem 1rem 2rem;
+    text-align: center;
+}
+
+/*En construccion*/
+
+.fotoConstruccion{
+    text-align: center;
+}
+
+/*Responsive*/
+
+/*Pantalla pequena*/
+
+@media screen and (max-width:768px){
+
+    /*Header*/
+   
+    header .nav1{
+        display: none;
+    }
+
+    header .nav2{
+        display:flex;
+        justify-content: space-between;
+        align-items: end;
+        background-image: url(../img/fondo1.jpg);
+        background-size: 100vh;
+        background-repeat: no-repeat;
+    }
+
+    header button {
+        background-color: black;
+    }
+
+    /*Footer*/
+
+    footer .footer .redes{
+        padding: 1rem 0 0 0;
+    }
+
+    footer .footer .contacto{
+        padding: 0 0 1rem 0;
+    }
+
+    footer .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*General*/
+
+    body .logoWp img{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .tituloPantallaPequena{
+        font-size: 2rem;
+    }
+
+    /*Inicio*/
+
+    main .collage{
+        display: none;
+    }
+
+    .carousel-item img{
+        max-width: 50rem;
+        width: 100%;
+        height: 26rem;
+        padding: 0 0 2rem 0;
+    }
+
+    /*Inicio y Agencias*/
+
+    .cita{
+        font-size: 2rem;
+    }
+
+    /*Nosotros y Agencias*/
+    .container{
+        padding-top: 1rem;
+    }
+
+    /*Destinos*/
+
+    .lugaresContainer figure img{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    /*Contacto*/
+
+    .tituloFormulario{
+        font-size: 1.5rem;
+    }
+
+    /*Lugares varios*/
+
+    .introLugares{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    iframe{
+        max-width: 40rem;
+        width: 100%;
+        height: auto;
+        padding: 1rem 0 0 0;
+    }
+
+    .cadaLugarImg{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        justify-items: center;
+        padding: 2rem;
+    }
+
+    .cadaLugarImg img{
+        max-width: 40rem;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    
+    .tituloSecundarioLugares{
+        font-family: "Grey Qo", cursive;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .containerLugares{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        margin: 0 auto;
+    }
+    
+    .tituloPrincipalLugares{
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .textoLugares{
+        margin: 0 auto;
+        padding: 2rem;
+        padding-top: 0;
+    }
+
+}
+
+/*Pantalla mediana*/
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    
+    /*Header*/
+
+    header .nav2 {
+        display: none;
+    }
+
+    /*Inicio*/
+
+    main .collage2{
+        display: none;
+    }
+
+    /*Lugares varios*/
+
+    .introLugares{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+}
+
+/*Pantalla grande*/
+
+@media screen and (min-width:1025px) {
+   
+    /*Header*/
+
+    header .nav2 {
+      display: none;
+    }
+
+    /*Inicio*/
+
+    main .collage2{
+        display: none;
+    }
+
+}
