@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.caveat-h1 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.shantell-sans {
+  font-family: "Shantell Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BNCE" 0, "INFM" 0, "SPAC" 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: rgb(53, 90, 91);
+  font-family: "Caveat", cursive;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Shantell Sans", cursive;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Shantell Sans", cursive;
+  font-weight: 300;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-align: justify;
+  font-family: "Shantell Sans", cursive;
+}
+
+a {
+  font-family: "Shantell Sans", cursive;
+}
+a:hover {
+  color: cadetblue;
+  text-decoration: solid;
+}
+
+header {
+  background-image: url(../Img/fondo1.jpg);
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header div img.logo {
+  width: 13rem;
+  height: 13rem;
+}
+header div nav ul.navegador {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+header div nav ul.navegador li {
+  padding: 0 1.5rem 0.5rem 1.5rem;
+}
+header div nav ul.navegador li a {
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: 500;
+}
+header div nav ul.navegador li a:hover {
+  color: aliceblue;
+  background-color: cadetblue;
+}
+
+footer div.footer {
+  background-color: rgb(53, 90, 91);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer div.footer section.redes {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer div.footer section.redes div.redesContactoImg {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+footer div.footer section.redes div.redesContactoImg a img {
+  width: 2rem;
+  height: 2rem;
+  color: black;
+  font-size: large;
+  margin: 0.5rem;
+}
+footer div.footer section.sectionLogo img.logo {
+  width: 13rem;
+  height: 13rem;
+}
+footer div.footer section.contacto {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer div.footer section.contacto div.redesContactoImg {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+footer div.footer section.contacto div.redesContactoImg a img {
+  width: 2rem;
+  height: 2rem;
+  color: black;
+  font-size: large;
+  margin: 0.5rem;
+}
+footer div.footer section.contacto div.redesContactoImg a img.mail {
+  width: 1.8rem;
+  height: 1.7rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,68 @@
+footer{
+    div.footer{
+        background-color: rgb(53, 90, 91);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        section.redes{
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            div.redesContactoImg{
+                display: flex;
+                justify-content: center;
+                padding: 0.5rem;
+
+                a{
+                    img{
+                        width: 2rem;
+                        height: 2rem;
+                        color: black;
+                        font-size: large;
+                        margin: 0.5rem;
+                    }
+                }
+            }
+        }
+
+        section.sectionLogo{
+            img.logo{
+                width: 13rem;
+                height: 13rem;
+            }
+        }
+
+        section.contacto{
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            div.redesContactoImg{
+                display: flex;
+                justify-content: center;
+                padding: 0.5rem;
+
+                a {
+                    img{
+                        width: 2rem;
+                        height: 2rem;
+                        color: black;
+                        font-size: large;
+                        margin: 0.5rem;
+                    }
+
+                    img.mail{
+                        width: 1.8rem;
+                        height: 1.7rem;
+                    }
+                }
+            }
+        }
+    }
+}

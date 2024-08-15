@@ -1,0 +1,53 @@
+.caveat-h1 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.shantell-sans {
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BNCE" 0,
+        "INFM" 0,
+        "SPAC" 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(53, 90, 91);
+    font-family: "Caveat", cursive;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Shantell Sans", cursive;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Shantell Sans", cursive;
+    font-weight: 300;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: justify;
+    font-family: "Shantell Sans", cursive;
+}
+
+a{
+    font-family: "Shantell Sans", cursive;
+
+    &:hover{
+        color: cadetblue;
+        text-decoration: solid;
+    }
+}
