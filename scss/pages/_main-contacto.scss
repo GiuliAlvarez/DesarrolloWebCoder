@@ -1,0 +1,95 @@
+main {
+    div.mainFormulario {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin: 0 auto;
+        padding: 2rem;
+
+        h1.tituloPrincipalContacto {
+            padding: 0 2rem 3rem 2rem;
+            text-align: center;
+        }
+
+        div.formContainer {
+            padding: 2rem;
+            border-radius: 2rem;
+            box-shadow: 0 4px 8px rgb(53, 90, 91);
+            max-width: max-content;
+            width: 100%;
+            background-image: linear-gradient(rgb(176, 197, 197), rgb(223, 245, 246));
+
+            form.formulario {
+                display: flex;
+                flex-direction: column;
+
+                h2.tituloFormulario {
+                    font-size: 2rem;
+                    text-align: center;
+                    padding: 0 1rem 1rem 1rem;
+                    text-align: center;
+                }
+
+                div.itemFormulario {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 1rem;
+                    justify-content: center;
+
+                    input {
+                        background-color: transparent;
+
+                        &:focus {
+                            transform: scale(1.1);
+                            background-color: aliceblue;
+                        }
+                    }
+
+                    textarea {
+                        background-color: transparent;
+
+                        &:focus {
+                            transform: scale(1.1);
+                            background-color: aliceblue;
+                        }
+                    }
+                }
+
+                div.checkbox {
+                    display: flex;
+                    justify-content: center;
+                    padding: 1rem;
+
+                    &:focus {
+                        transform: scale(1.1);
+                        background-color: aliceblue;
+                    }
+                }
+
+                div.botonEnviar {
+                    display: flex;
+                    justify-content: center;
+
+                    input.boton{
+                        cursor: pointer;
+                        background-color: rgb(53, 90, 91);
+                        color: white;
+                        padding: 1rem;
+                        border-radius: 0.5rem;
+
+                        &:hover{
+                            transform:scale(1.2);
+                        }
+
+                        &:focus{
+                            transform:scale(1.2);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

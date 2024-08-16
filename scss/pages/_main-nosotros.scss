@@ -1,0 +1,32 @@
+main {
+    h1.tituloPrincipalNosotros {
+        padding: 1rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    section.container {
+        padding: 3rem;
+        margin: 0 auto;
+
+        div.row {
+            div {
+                h2.tituloSecundario {
+                    padding: 0 1.5rem 1.5rem 0;
+                    text-align: center;
+                }
+
+                img.fotoNosotros {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+
+                h2.tituloSecundarioDos {
+                    padding: 1.5rem 1.5rem 1.5rem 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

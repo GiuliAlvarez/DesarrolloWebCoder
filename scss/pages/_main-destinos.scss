@@ -1,0 +1,37 @@
+main {
+    h1.tituloPrincipalNosotros {
+        padding: 1rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    section.lugaresContainer {
+        display: flex;
+        flex-flow: row wrap;
+        align-content: space-around;
+        justify-content: space-around;
+        padding: 1rem;
+
+        figure {
+            margin: 0 auto;
+            padding: 1rem;
+
+            a {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+
+                img.fotolugares{
+                    border-radius: 5%;
+                    width: 25rem;
+                    height: 25rem;
+                }
+            }
+        }
+    }
+}

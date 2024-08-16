@@ -1,0 +1,82 @@
+main {
+    h1.tituloPrincipalNosotros {
+        padding: 1rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    section.introLugares {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+
+        img.fotoprincipal {
+            /*Foto principal de cada provincia*/
+            max-width: 40rem;
+            width: 100%;
+            height: auto;
+            padding: 2rem;
+        }
+
+        p.textoIntro {
+            object-fit: fill;
+            text-align: justify;
+            flex: 1;
+            padding: 2rem;
+        }
+    }
+
+    section {
+        h2.tituloPrincipalLugares {
+            padding: 2rem 2rem 1rem 2rem;
+            text-align: center;
+        }
+
+        ol.listadoLugaresProvincias {
+            padding: 0;
+
+            li.containerLugares {
+                display: flex;
+                flex-direction: column;
+                margin: 2rem;
+                padding: 2rem 4rem;
+                border: 1px solid rgb(53, 90, 91);
+                box-shadow: 0 4px 8px rgb(53, 90, 91);
+
+                h3.tituloSecundarioLugares {
+                    font-family: "Grey Qo", cursive;
+                    font-size: 3rem;
+                }
+
+                div.cadaLugarImg {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 auto;
+                    justify-content: center;
+                    justify-items: center;
+
+                    img.foto {
+                        /*Foto de las pag de cada provincia*/
+                        max-width: 40rem;
+                        width: 100%;
+                        height: 24rem;
+                        padding: 1rem;
+                    }
+
+                    iframe {
+                        width: 40rem;
+                        height: 24rem;
+                        padding: 1rem;
+                    }
+                }
+
+                p.textoLugares {
+                    margin: 0 auto;
+                    padding: 2rem;
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+}

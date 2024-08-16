@@ -16,6 +16,12 @@
         "SPAC" 0;
 }
 
+.grey-qo-regular {
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1 {
     font-size: 3rem;
     color: rgb(53, 90, 91);
@@ -36,18 +42,36 @@ h3 {
     font-weight: bold;
 }
 
-p{
+p {
     font-size: 1.2rem;
     font-weight: 200;
     text-align: justify;
     font-family: "Shantell Sans", cursive;
 }
 
-a{
+a {
     font-family: "Shantell Sans", cursive;
 
-    &:hover{
+    &:hover {
         color: cadetblue;
         text-decoration: solid;
+    }
+}
+
+main {
+    section {
+        a.logoWp {
+            position: fixed;
+            right: 3%;
+            bottom: 5%;
+
+            img {
+                width: 4rem;
+                height: 4rem;
+                /*position: sticky;
+                left: 90%;
+                bottom: 25%;*/
+            }
+        }
     }
 }
