@@ -1,0 +1,185 @@
+@media screen and (max-width:768px) {
+
+    body {
+
+        header {
+            div.nav1 {
+                display: none;
+            }
+
+            div.nav2 {
+                nav.dropdown {
+                    button.btn {
+                        background-color: black;
+                    }
+                }
+            }
+        }
+
+        main {
+
+            h1.tituloPantallaPequena {
+                font-size: 2rem;
+            }
+
+            section.sectionPrincipal {
+                h2.cita {
+                    font-size: 2rem;
+                }
+            }
+
+            section.collage {
+                display: none;
+            }
+
+            div.container {
+                padding-top: 1rem;
+            }
+
+            section {
+                h3.cita {
+                    font-size: 2rem;
+                }
+            }
+
+            section.lugaresContainer {
+                figure {
+                    a {
+                        img {
+                            width: 20rem;
+                            height: 20rem;
+                        }
+                    }
+                }
+            }
+
+            div.mainFormulario {
+                form.formulario {
+                    h2.tituloFormulario {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+
+            section.introLugares {
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+            }
+
+            section {
+                h2.tituloPrincipalLugares {
+                    padding: 1rem;
+                    text-align: center;
+                }
+
+                ol.listadoLugaresProvincias {
+                    li.containerLugares {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 0;
+                        border: none;
+                        box-shadow: none;
+                        margin: 0 auto;
+
+                        h3.tituloSecundarioLugares {
+                            font-family: "Grey Qo", cursive;
+                            font-size: 2rem;
+                            text-align: center;
+                        }
+
+                        div.cadaLugarImg {
+                            display: flex;
+                            flex-direction: column;
+                            margin: 0 auto;
+                            justify-content: center;
+                            justify-items: center;
+                            padding: 2rem;
+
+                            img.foto {
+                                max-width: 40rem;
+                                width: 100%;
+                                height: auto;
+                                padding: 0;
+                            }
+
+                            iframe {
+                                max-width: 40rem;
+                                width: 100%;
+                                height: auto;
+                                padding: 1rem 0 0 0;
+                            }
+                        }
+
+                        p.textoLugares {
+                            margin: 0 auto;
+                            padding: 2rem;
+                            padding-top: 0;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        section {
+            a.logoWp {
+                width: 3rem;
+                height: 3rem;
+            }
+        }
+
+        footer {
+            div.footer {
+                display: flex;
+                flex-direction: column;
+
+                section.redes {
+                    padding: 1rem 0 0 0;
+                }
+
+                section.contacto {
+                    padding: 0 0 1rem 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    body {
+        header {
+            div.nav2 {
+                display: none;
+            }
+        }
+
+        main {
+            div.collage2 {
+                display: none;
+            }
+
+            section.introLugares {
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1025px) {
+    body {
+        header {
+            div.nav2 {
+                display: none;
+            }
+        }
+
+        main {
+            div.collage2 {
+                display: none;
+            }
+        }
+    }
+}

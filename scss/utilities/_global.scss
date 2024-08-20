@@ -58,7 +58,12 @@ a {
     }
 }
 
-main {
+img.logo {
+    width: 13rem;
+    height: 13rem;
+}
+
+body {
     section {
         a.logoWp {
             position: fixed;
@@ -68,9 +73,6 @@ main {
             img {
                 width: 4rem;
                 height: 4rem;
-                /*position: sticky;
-                left: 90%;
-                bottom: 25%;*/
             }
         }
     }
