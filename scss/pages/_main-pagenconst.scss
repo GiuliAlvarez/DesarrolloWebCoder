@@ -1,5 +1,6 @@
 main{
     div.fotoConstruccion{
         text-align: center;
+        @include sizes(40rem,24rem);
     }
 }
