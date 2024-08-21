@@ -182,6 +182,7 @@ body main section.collage img.img7 {
 }
 body main section.collage2 div.carousel div.carousel-inner div.carousel-item img {
   max-width: 50rem;
+  max-height: 26rem;
   width: 100%;
   height: 26rem;
   padding: 0 0 2rem 0;

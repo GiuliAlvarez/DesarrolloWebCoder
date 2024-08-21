@@ -74,6 +74,7 @@ body {
                     div.carousel-item {
                         img {
                             max-width: 50rem;
+                            max-height: 26rem;
                             @include sizes(100%,26rem);
                             padding: 0 0 2rem 0;
                         }
