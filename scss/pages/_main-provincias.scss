@@ -1,9 +1,4 @@
 main {
-    h1.tituloPrincipalNosotros {
-        padding: 1rem;
-        margin: 0 auto;
-        text-align: center;
-    }
 
     section.introLugares {
         display: flex;
@@ -14,8 +9,7 @@ main {
         img.fotoprincipal {
             /*Foto principal de cada provincia*/
             max-width: 40rem;
-            width: 100%;
-            height: auto;
+            @include sizes(100%,auto);
             padding: 2rem;
         }
 
@@ -41,11 +35,11 @@ main {
                 flex-direction: column;
                 margin: 2rem;
                 padding: 2rem 4rem;
-                border: 1px solid rgb(53, 90, 91);
-                box-shadow: 0 4px 8px rgb(53, 90, 91);
+                border: 1px solid $title-color;
+                box-shadow: 0 4px 8px $title-color;
 
                 h3.tituloSecundarioLugares {
-                    font-family: "Grey Qo", cursive;
+                    font-family: $cursive-font;
                     font-size: 3rem;
                 }
 
@@ -59,14 +53,12 @@ main {
                     img.foto {
                         /*Foto de las pag de cada provincia*/
                         max-width: 40rem;
-                        width: 100%;
-                        height: 24rem;
+                        @include sizes(100%,24rem);
                         padding: 1rem;
                     }
 
                     iframe {
-                        width: 40rem;
-                        height: 24rem;
+                        @include sizes(40rem,24rem);
                         padding: 1rem;
                     }
                 }

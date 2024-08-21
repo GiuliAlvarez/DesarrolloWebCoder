@@ -24,20 +24,20 @@
 
 h1 {
     font-size: 3rem;
-    color: rgb(53, 90, 91);
-    font-family: "Caveat", cursive;
+    color: $title-color;
+    font-family: $title-font;
     text-transform: uppercase;
 }
 
 h2 {
     font-size: 1.5rem;
     font-weight: 400;
-    font-family: "Shantell Sans", cursive;
+    font-family: $general-font;
     font-weight: bold;
 }
 
 h3 {
-    font-family: "Shantell Sans", cursive;
+    font-family: $general-font;
     font-weight: 300;
     font-weight: bold;
 }
@@ -46,14 +46,14 @@ p {
     font-size: 1.2rem;
     font-weight: 200;
     text-align: justify;
-    font-family: "Shantell Sans", cursive;
+    font-family: $general-font;
 }
 
 a {
-    font-family: "Shantell Sans", cursive;
+    font-family: $general-font;
 
     &:hover {
-        color: cadetblue;
+        color: $hover-color;
         text-decoration: solid;
     }
 }

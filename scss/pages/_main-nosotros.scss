@@ -17,8 +17,7 @@ main {
                 }
 
                 img.fotoNosotros {
-                    width: 100%;
-                    height: 100%;
+                    @include sizes(100%,100%);
                     object-fit: contain;
                 }
 

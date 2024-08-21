@@ -1,9 +1,4 @@
 main {
-    h1.tituloPrincipalNosotros {
-        padding: 1rem;
-        margin: 0 auto;
-        text-align: center;
-    }
 
     section.lugaresContainer {
         display: flex;
@@ -28,8 +23,7 @@ main {
 
                 img.fotolugares{
                     border-radius: 5%;
-                    width: 25rem;
-                    height: 25rem;
+                    @include sizes(25rem,25rem);
                 }
             }
         }

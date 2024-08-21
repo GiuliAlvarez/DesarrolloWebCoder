@@ -1,9 +1,4 @@
 main {
-    h1.tituloPrincipalNosotros {
-        padding: 1rem;
-        margin: 0 auto;
-        text-align: center;
-    }
 
     div.container {
         div.row {
@@ -17,19 +12,13 @@ main {
 
                 figure {
                     img.fotoNosotros {
-                        width: 100%;
-                        height: 100%;
+                        @include sizes(100%,100%);
                         object-fit: contain;
                     }
                 }
 
                 h3.cita {
-                    padding: 1rem;
-                    text-shadow: 0 0 0.5rem cadetblue;
-                    font-family: "Grey Qo", cursive;
-                    font-size: 3rem;
-                    font-weight: 400;
-                    text-align: center;
+                    @extend .cita;
                 }
             }
         }

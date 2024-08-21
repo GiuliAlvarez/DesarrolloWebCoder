@@ -13,6 +13,15 @@ a {
   text-decoration: none;
 }
 
+.cita, main div.container div.row section h3.cita, body main section.sectionPrincipal h2.cita {
+  padding: 1rem;
+  text-shadow: 0 0 0.5rem cadetblue;
+  font-family: "Grey Qo", cursive;
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+}
+
 .caveat-h1 {
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
@@ -130,14 +139,6 @@ body main section.sectionPrincipal h1.tituloPrincipal {
   padding: 1rem;
   text-align: center;
 }
-body main section.sectionPrincipal h2.cita {
-  padding: 1rem;
-  text-shadow: 0 0 0.5rem cadetblue;
-  font-family: "Grey Qo", cursive;
-  font-size: 3rem;
-  font-weight: 400;
-  text-align: center;
-}
 body main section.collage {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -150,8 +151,8 @@ body main section.collage {
 }
 body main section.collage img.fotocollage {
   width: 100%;
-  max-width: 17rem;
   height: 20rem;
+  max-width: 17rem;
   object-fit: cover;
 }
 body main section.collage img.img1 {
@@ -209,11 +210,6 @@ main section.container div.row div.col-sm-12 h2.tituloSecundarioDos {
   text-align: center;
 }
 
-main h1.tituloPrincipalNosotros {
-  padding: 1rem;
-  margin: 0 auto;
-  text-align: center;
-}
 main section.lugaresContainer {
   display: flex;
   flex-flow: row wrap;
@@ -240,11 +236,6 @@ main section.lugaresContainer figure a img.fotolugares {
   height: 25rem;
 }
 
-main h1.tituloPrincipalNosotros {
-  padding: 1rem;
-  margin: 0 auto;
-  text-align: center;
-}
 main div.container div.row section ul.listadoAgencias li {
   padding: 1rem 0 0 0;
   list-style-type: circle;
@@ -254,15 +245,6 @@ main div.container div.row section figure img.fotoNosotros {
   height: 100%;
   object-fit: contain;
 }
-main div.container div.row section h3.cita {
-  padding: 1rem;
-  text-shadow: 0 0 0.5rem cadetblue;
-  font-family: "Grey Qo", cursive;
-  font-size: 3rem;
-  font-weight: 400;
-  text-align: center;
-}
-
 main div.mainFormulario {
   display: flex;
   flex-direction: column;
@@ -342,11 +324,6 @@ main div.mainFormulario div.formContainer form.formulario div.botonEnviar input.
   transform: scale(1.2);
 }
 
-main h1.tituloPrincipalNosotros {
-  padding: 1rem;
-  margin: 0 auto;
-  text-align: center;
-}
 main section.introLugares {
   display: flex;
   justify-content: center;
@@ -486,7 +463,7 @@ footer div.footer section.contacto div.redesContactoImg a img.mail {
   body main div.container {
     padding-top: 1rem;
   }
-  body main section h3.cita {
+  body main section h3.cita, body main div.container div.row section h3.cita {
     font-size: 2rem;
   }
   body main section.lugaresContainer figure a img {
@@ -598,7 +575,7 @@ footer div.footer section.contacto div.redesContactoImg a img.mail {
   body main div.container {
     padding-top: 1rem;
   }
-  body main section h3.cita {
+  body main section h3.cita, body main div.container div.row section h3.cita {
     font-size: 2rem;
   }
   body main section.lugaresContainer figure a img {
