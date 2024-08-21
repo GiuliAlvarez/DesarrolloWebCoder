@@ -72,7 +72,7 @@ body {
             div.carousel {
                 div.carousel-inner{
                     div.carousel-item {
-                        img.d-block {
+                        img {
                             max-width: 50rem;
                             @include sizes(100%,26rem);
                             padding: 0 0 2rem 0;

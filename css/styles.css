@@ -180,7 +180,7 @@ body main section.collage img.img7 {
   grid-area: img7;
   height: 100%;
 }
-body main section.collage2 div.carousel div.carousel-inner div.carousel-item img.d-block {
+body main section.collage2 div.carousel div.carousel-inner div.carousel-item img {
   max-width: 50rem;
   width: 100%;
   height: 26rem;
