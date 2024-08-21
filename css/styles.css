@@ -229,7 +229,7 @@ main section.lugaresContainer figure a {
   align-items: center;
 }
 main section.lugaresContainer figure a:hover {
-  transform: scale(0.1);
+  transform: scale(1.1);
 }
 main section.lugaresContainer figure a img.fotolugares {
   border-radius: 5%;
@@ -390,8 +390,12 @@ main section ol.listadoLugaresProvincias li.containerLugares p.textoLugares {
 
 main div.fotoConstruccion {
   text-align: center;
-  width: 40rem;
-  height: 24rem;
+}
+main div.fotoConstruccion img.fotoConst {
+  max-width: 40rem;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
 }
 
 footer div.footer {

@@ -1,6 +1,11 @@
-main{
-    div.fotoConstruccion{
+main {
+    div.fotoConstruccion {
         text-align: center;
-        @include sizes(40rem,24rem);
+
+        img.fotoConst {
+            max-width: 40rem;
+            @include sizes(100%, auto);
+            padding: 2rem;
+        }
     }
 }
