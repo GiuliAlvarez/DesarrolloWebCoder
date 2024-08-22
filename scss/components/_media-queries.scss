@@ -45,7 +45,12 @@
             section.lugaresContainer {
                 figure {
                     a {
-                        img {
+
+                        &:hover{
+                            transform: none;
+                        }
+
+                        img.fotolugares {
                             width: 20rem;
                             height: 20rem;
                         }

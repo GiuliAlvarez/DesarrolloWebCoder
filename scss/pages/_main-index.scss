@@ -68,14 +68,13 @@ body {
             }
         }
 
-        section.collage2 {
+        div.collage2 {
             div.carousel {
                 div.carousel-inner{
                     div.carousel-item {
                         img {
                             max-width: 50rem;
-                            max-height: 26rem;
-                            @include sizes(50rem,26rem);
+                            @include sizes(100%,26rem);
                             padding: 0 0 2rem 0;
                         }
                     }

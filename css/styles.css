@@ -180,10 +180,9 @@ body main section.collage img.img7 {
   grid-area: img7;
   height: 100%;
 }
-body main section.collage2 div.carousel div.carousel-inner div.carousel-item img {
+body main div.collage2 div.carousel div.carousel-inner div.carousel-item img {
   max-width: 50rem;
-  max-height: 26rem;
-  width: 50rem;
+  width: 100%;
   height: 26rem;
   padding: 0 0 2rem 0;
 }
@@ -194,7 +193,7 @@ main h1.tituloPrincipalNosotros {
   text-align: center;
 }
 main section.container-fluid {
-  padding: 3rem;
+  padding: 2rem;
   margin: 0 auto;
 }
 main section.container-fluid div.row div.col-sm-12 h2.tituloSecundario {
@@ -585,7 +584,10 @@ footer div.footer section.contacto div.redesContactoImg a img.mail {
   body main section h3.cita, body main div.container div.row section h3.cita {
     font-size: 2rem;
   }
-  body main section.lugaresContainer figure a img {
+  body main section.lugaresContainer figure a:hover {
+    transform: none;
+  }
+  body main section.lugaresContainer figure a img.fotolugares {
     width: 20rem;
     height: 20rem;
   }
