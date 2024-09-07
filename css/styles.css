@@ -124,8 +124,15 @@ header div.nav2 {
   background-size: 100vh;
   background-repeat: no-repeat;
 }
-header div.nav2 nav.dropdown button.btn {
+header div.nav2 nav.myDropdown button.btn {
   color: white;
+}
+header div.nav2 nav.myDropdown button.dropdown-toggle::after {
+  display: none;
+}
+header div.nav2 nav.myDropdown img.barraMenu {
+  width: 2rem;
+  height: 2rem;
 }
 
 body main section.sectionPrincipal {
@@ -229,6 +236,7 @@ main section.lugaresContainer figure a {
 }
 main section.lugaresContainer figure a:hover {
   transform: scale(1.1);
+  transition: 2s;
 }
 main section.lugaresContainer figure a img.fotolugares {
   border-radius: 5%;
@@ -288,6 +296,7 @@ main div.mainFormulario div.formContainer form.formulario div.itemFormulario inp
 }
 main div.mainFormulario div.formContainer form.formulario div.itemFormulario input:focus {
   transform: scale(1.1);
+  transition: 1s;
   background-color: aliceblue;
 }
 main div.mainFormulario div.formContainer form.formulario div.itemFormulario textarea {
@@ -295,6 +304,7 @@ main div.mainFormulario div.formContainer form.formulario div.itemFormulario tex
 }
 main div.mainFormulario div.formContainer form.formulario div.itemFormulario textarea:focus {
   transform: scale(1.1);
+  transition: 1s;
   background-color: aliceblue;
 }
 main div.mainFormulario div.formContainer form.formulario div.checkbox {
@@ -304,6 +314,7 @@ main div.mainFormulario div.formContainer form.formulario div.checkbox {
 }
 main div.mainFormulario div.formContainer form.formulario div.checkbox:focus {
   transform: scale(1.1);
+  transition: 1s;
   background-color: aliceblue;
 }
 main div.mainFormulario div.formContainer form.formulario div.botonEnviar {
@@ -319,9 +330,11 @@ main div.mainFormulario div.formContainer form.formulario div.botonEnviar input.
 }
 main div.mainFormulario div.formContainer form.formulario div.botonEnviar input.boton:hover {
   transform: scale(1.2);
+  transition: 1s;
 }
 main div.mainFormulario div.formContainer form.formulario div.botonEnviar input.boton:focus {
   transform: scale(1.2);
+  transition: 1s;
 }
 
 main section.introLugares {

@@ -37,9 +37,17 @@ header {
         background-size: 100vh;
         background-repeat: no-repeat;
 
-        nav.dropdown {
+        nav.myDropdown {
             button.btn {
                 color: white;
+            }
+
+            button.dropdown-toggle::after{
+                display:none;
+            }
+
+            img.barraMenu{
+                @include sizes(2rem,2rem);
             }
         }
     }
