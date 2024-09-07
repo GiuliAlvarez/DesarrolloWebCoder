@@ -296,6 +296,7 @@ main div.mainFormulario div.formContainer form.formulario div.itemFormulario inp
 }
 main div.mainFormulario div.formContainer form.formulario div.itemFormulario input:focus {
   transform: scale(1.1);
+  transition: 1s;
   background-color: aliceblue;
 }
 main div.mainFormulario div.formContainer form.formulario div.itemFormulario textarea {
@@ -303,6 +304,7 @@ main div.mainFormulario div.formContainer form.formulario div.itemFormulario tex
 }
 main div.mainFormulario div.formContainer form.formulario div.itemFormulario textarea:focus {
   transform: scale(1.1);
+  transition: 1s;
   background-color: aliceblue;
 }
 main div.mainFormulario div.formContainer form.formulario div.checkbox {
@@ -312,6 +314,7 @@ main div.mainFormulario div.formContainer form.formulario div.checkbox {
 }
 main div.mainFormulario div.formContainer form.formulario div.checkbox:focus {
   transform: scale(1.1);
+  transition: 1s;
   background-color: aliceblue;
 }
 main div.mainFormulario div.formContainer form.formulario div.botonEnviar {
@@ -327,9 +330,11 @@ main div.mainFormulario div.formContainer form.formulario div.botonEnviar input.
 }
 main div.mainFormulario div.formContainer form.formulario div.botonEnviar input.boton:hover {
   transform: scale(1.2);
+  transition: 1s;
 }
 main div.mainFormulario div.formContainer form.formulario div.botonEnviar input.boton:focus {
   transform: scale(1.2);
+  transition: 1s;
 }
 
 main section.introLugares {
