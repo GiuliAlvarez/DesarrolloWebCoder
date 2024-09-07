@@ -124,8 +124,15 @@ header div.nav2 {
   background-size: 100vh;
   background-repeat: no-repeat;
 }
-header div.nav2 nav.dropdown button.btn {
+header div.nav2 nav.myDropdown button.btn {
   color: white;
+}
+header div.nav2 nav.myDropdown button.dropdown-toggle::after {
+  display: none;
+}
+header div.nav2 nav.myDropdown img.barraMenu {
+  width: 2rem;
+  height: 2rem;
 }
 
 body main section.sectionPrincipal {
@@ -229,6 +236,7 @@ main section.lugaresContainer figure a {
 }
 main section.lugaresContainer figure a:hover {
   transform: scale(1.1);
+  transition: 2s;
 }
 main section.lugaresContainer figure a img.fotolugares {
   border-radius: 5%;
